@@ -39,7 +39,7 @@ export default {
       'NID',
       'Nome Completo',
       'Data de Nascimento',
-      'Genero',
+      'Sexo',
       'Vezes Contadas',
     ];
     const rows = await Report.printReportOther(
@@ -264,7 +264,7 @@ export default {
           filterButton: false,
         },
         {
-          name: 'Genero',
+          name: 'Sexo',
           totalsRowFunction: 'none',
           filterButton: false,
         },

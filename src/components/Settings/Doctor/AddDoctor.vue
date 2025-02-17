@@ -52,8 +52,8 @@
               v-model="doctor.gender"
               :options="genders"
               ref="genderRef"
-              :rules="[(val) => val != null || ' Por favor indique o genero']"
-              label="Género *"
+              :rules="[(val) => val != null || ' Por favor indique o Sexo']"
+              label="Sexo *"
               :disable="onlyView"
             />
           </div>

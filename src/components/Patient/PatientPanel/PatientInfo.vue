@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="row q-mb-sm">
-      <div class="col-5 text-grey-9">Gênero</div>
+      <div class="col-5 text-grey-9">Sexo</div>
       <div class="col text-grey-10">{{ patient.gender }}</div>
     </div>
 
@@ -130,7 +130,15 @@ import { useSystemUtils } from 'src/composables/shared/systemUtils/systemUtils';
 import { useDateUtils } from 'src/composables/shared/dateUtils/dateUtils';
 import patientRegister from 'src/components/Patient/Register/PatientRegister.vue';
 import mergeDuplicates from 'src/components/Patient/PatientPanel/MergeDuplicatePatients.vue';
-import { inject, onMounted, provide, ref, computed, reactive } from 'vue';
+import {
+  inject,
+  onMounted,
+  provide,
+  ref,
+  computed,
+  reactive,
+  onBeforeUnmount,
+} from 'vue';
 import patientService from 'src/services/api/patientService/patientService';
 import { useSystemConfig } from 'src/composables/systemConfigs/SystemConfigs';
 import healthInformationSystemService from 'src/services/api/HealthInformationSystem/healthInformationSystemService';

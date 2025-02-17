@@ -40,7 +40,7 @@ export default {
       'Nome ',
       'Apelido',
       'Data de Nascimento',
-      'Genero',
+      'Sexo',
       'Data de Registo',
     ];
     const rows = await Report.printReportOther(
@@ -279,7 +279,7 @@ export default {
           filterButton: false,
         },
         {
-          name: 'Genero',
+          name: 'Sexo',
           totalsRowFunction: 'none',
           filterButton: false,
         },
