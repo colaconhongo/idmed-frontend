@@ -104,7 +104,7 @@ export default {
     const cols = [
       'NID',
       'Nome',
-      'Genero',
+      'Sexo',
       'Idade',
       'Data da Consulta',
       'Gravida',
@@ -319,7 +319,7 @@ export default {
       columns: [
         { name: 'NID', totalsRowLabel: 'none', filterButton: false },
         { name: 'Nome', totalsRowFunction: 'none', filterButton: false },
-        { name: 'Genero', totalsRowFunction: 'none', filterButton: false },
+        { name: 'Sexo', totalsRowFunction: 'none', filterButton: false },
         {
           name: 'Idade',
           totalsRowFunction: 'none',

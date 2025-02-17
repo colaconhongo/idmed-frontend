@@ -68,7 +68,7 @@ const { isProvincialInstalation, localProvincialInstalationCode } =
 const serviceCode = inject('serviceCode');
 const year = inject('year');
 const currClinic = inject('currClinic');
-const tableTitle = ref('Total de dispensas por Gênero no Serviço ');
+const tableTitle = ref('Total de dispensas por Sexo no Serviço ');
 
 const getDispensesByGender = () => {
   if (isProvincialInstalation()) {
